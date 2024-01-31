@@ -1,0 +1,68 @@
+@charset "UTF-8";
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'source Sans Pro', sans-serif;
+    text-decoration: none;
+}
+
+.topo{
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex: 1 1 1024px;
+    background-color: white;
+    padding: 20px;
+    position: fixed;
+   z-index: 1;
+   
+    
+}
+.topo a {
+    color: black;
+}
+span{
+    color:rgb(0, 184, 184);
+}
+
+.links-topo a{
+    padding-left: 30px;
+
+}
+
+.container-banner{
+    width: 100%;
+    height: 50vh;
+  
+    background-image: url(img/img-fundo.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+
+
+}
+.banner{
+   width: 400px;
+   height: 170px;
+   padding: 20px;
+    background-color: rgba(3, 109, 109, 0.534);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-around;
+    color: #fff;
+    border: 1px solid #fff;
+}
+.banner h1{
+    font-size: 37px;
+}
+.banner p{
+    font-size: 22px;
+}
